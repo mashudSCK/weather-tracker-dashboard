@@ -1,4 +1,4 @@
-# 🌦️ Weather Tracker Dashboard# CodeIgniter 4 Application Starter
+# Weather Tracker Dashboard# CodeIgniter 4 Application Starter
 
 
 
@@ -10,7 +10,7 @@ A comprehensive full-stack weather tracking and management system built with **C
 
 More information can be found at the [official site](https://codeigniter.com).
 
-## 📋 Table of Contents
+## Table of Contents
 
 This repository holds a composer-installable app starter.
 
@@ -40,11 +40,11 @@ This repository holds a composer-installable app starter.
 
 
 
-## ✨ FeaturesWhen updating, check the release notes to see if there are any changes you might need to apply
+## FeaturesWhen updating, check the release notes to see if there are any changes you might need to apply
 
 to your `app` folder. The affected files can be copied or merged from
 
-### 🔐 Authentication & Authorization`vendor/codeigniter4/framework/app`.
+### Authentication & Authorization`vendor/codeigniter4/framework/app`.
 
 - **Role-Based Access Control**: Admin and User roles with different permissions
 
@@ -56,7 +56,7 @@ to your `app` folder. The affected files can be copied or merged from
 
 and any database settings.
 
-### 👥 User Management (Admin Only)
+### User Management (Admin Only)
 
 - Create, Read, Update, Delete (CRUD) users## Important Change with index.php
 
@@ -68,7 +68,7 @@ and any database settings.
 
 
 
-### 🌍 City Management (Admin Only)This means that you should configure your web server to "point" to your project's *public* folder, and
+### City Management (Admin Only)This means that you should configure your web server to "point" to your project's *public* folder, and
 
 - Add new cities with country codesnot to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
 
@@ -80,7 +80,7 @@ and any database settings.
 
 
 
-### 🌤️ Weather Features## Repository Management
+### Weather Features## Repository Management
 
 - **Real-time Weather Data**: Fetch current weather from OpenWeatherMap API
 
@@ -106,7 +106,7 @@ and any database settings.
 
 
 
-### 📊 Dashboard- [intl](http://php.net/manual/en/intl.requirements.php)
+### Dashboard- [intl](http://php.net/manual/en/intl.requirements.php)
 
 - Statistics overview (total cities, users, weather logs)- [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
@@ -118,7 +118,7 @@ and any database settings.
 
 > - The end of life date for PHP 8.0 was November 26, 2023.
 
-### 🎨 User Interface> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
+### User Interface> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
 
 - **Responsive Design**: Bootstrap 5 with mobile-first approach> - The end of life date for PHP 8.1 will be December 31, 2025.
 
@@ -135,7 +135,7 @@ and any database settings.
 ---- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
 
-## 💻 System Requirements
+## System Requirements
 
 - **PHP**: >= 8.1
 - **MySQL**: >= 5.7 or MariaDB >= 10.3
@@ -146,7 +146,7 @@ and any database settings.
 
 ---
 
-## 🚀 Installation Guide
+## Installation Guide
 
 ### Step 1: Install XAMPP
 1. Download and install XAMPP from [apachefriends.org](https://www.apachefriends.org/)
@@ -200,7 +200,7 @@ weather.apiKey = YOUR_API_KEY_HERE
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 The `.env` file is already configured with these settings:
 
@@ -224,7 +224,7 @@ weather.apiURL = https://api.openweathermap.org/data/2.5/weather
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Tables
 
@@ -269,7 +269,7 @@ weather.apiURL = https://api.openweathermap.org/data/2.5/weather
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### For Admin Users
 
@@ -301,7 +301,7 @@ weather.apiURL = https://api.openweathermap.org/data/2.5/weather
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 WeatherTracker/
@@ -343,7 +343,7 @@ WeatherTracker/
 
 ---
 
-## 🔌 API Integration
+## API Integration
 
 ### OpenWeatherMap API
 
@@ -370,20 +370,20 @@ https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_KEY&units=me
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
-✅ **Password Hashing**: bcrypt algorithm  
-✅ **CSRF Protection**: Token-based validation  
-✅ **Input Validation**: Server-side validation rules  
-✅ **XSS Protection**: Output escaping  
-✅ **SQL Injection Prevention**: Query Builder & prepared statements  
-✅ **Session Security**: Secure session management  
-✅ **Role-Based Access**: Admin and User permissions  
-✅ **Authentication Filters**: Route protection  
+**Password Hashing**: bcrypt algorithm  
+**CSRF Protection**: Token-based validation  
+**Input Validation**: Server-side validation rules  
+**XSS Protection**: Output escaping  
+**SQL Injection Prevention**: Query Builder & prepared statements  
+**Session Security**: Secure session management  
+**Role-Based Access**: Admin and User permissions  
+**Authentication Filters**: Route protection  
 
 ---
 
-## 📚 Technical Documentation
+## Technical Documentation
 
 See [TECHNICAL_REPORT.md](TECHNICAL_REPORT.md) for:
 - System Architecture Diagram
@@ -395,7 +395,7 @@ See [TECHNICAL_REPORT.md](TECHNICAL_REPORT.md) for:
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Database Connection Error
 - Ensure MySQL is running in XAMPP
@@ -418,37 +418,13 @@ See [TECHNICAL_REPORT.md](TECHNICAL_REPORT.md) for:
 
 ---
 
-## 🎯 Demo Script (3-5 minutes)
-
-1. **Login & Authentication** (1 min)
-   - Show login page
-   - Login as admin
-   - Explain role-based access
-
-2. **Weather Features** (2 min)
-   - View weather dashboard
-   - Fetch fresh data from API
-   - Show Chart.js visualization
-   - Explain caching mechanism
-
-3. **Admin CRUD Operations** (1-2 min)
-   - Add new city
-   - Manage users
-   - Delete operations
-
-4. **User Role Demo** (30 sec)
-   - Login as regular user
-   - Show limited access
-
----
-
-## 📝 License
+## License
 
 Open-source project for educational purposes.
 
 ---
 
-## 👨‍💻 Credits
+## Credits
 
 **Framework**: CodeIgniter 4  
 **UI**: Bootstrap 5  
@@ -458,4 +434,4 @@ Open-source project for educational purposes.
 
 ---
 
-**🌟 Happy Weather Tracking!**
+**Happy Weather Tracking!**
